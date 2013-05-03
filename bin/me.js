@@ -30,3 +30,4 @@ if (os.platform() == 'darwin') {
 
 ps = spawn(bin, args);
 ps.stderr.pipe(process.stderr);
+ps.on('exit', process.exit.bind(process));

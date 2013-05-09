@@ -8,7 +8,7 @@ Markdown editor with live-preview and auto-save, as a chrome app.
 $ me README.md
 ```
 
-![screenshot](http://f.cl.ly/items/0b2I082R2B3Q0h0V2Q0G/Screen%20Shot%202013-05-01%20at%203.07.04%20PM.png)
+![screenshot](http://f.cl.ly/items/1d2k2m1L133j1o373s0n/Screen%20Shot%202013-05-09%20at%204.15.18%20PM.png)
 
 You can also use `me` from JavaScript:
 

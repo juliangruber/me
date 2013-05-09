@@ -6,7 +6,7 @@ var os = require('os');
 var path = require('path');
 
 var file = process.argv[2];
-var server = me(file);
+var server = me(path.resolve(process.cwd(), file));
 
 /**
  * Start server.
@@ -28,5 +28,5 @@ if (os.platform() == 'darwin') {
   args.push('--user-data-dir=' + path.join(process.env.HOME, '.md'));
 }
 
-ps = spawn(bin, args);
+var ps = spawn(bin, args);
 ps.stderr.pipe(process.stderr);

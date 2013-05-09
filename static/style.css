@@ -1,38 +1,45 @@
 html {
   font : 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height : 100%;
+}
+
+body {
+  margin : 0;
+  height : 100%;
+  position : absolute;
 }
 
 code {
-  white-space: pre;
-}
-
-#input, #output {
-  height : 100%;
-  padding-top : 20px;
-}
-
-#input {
-  left : 10%;
-  width : 38%;
-  position : fixed;
-}
-
-#input textarea {
-  height : 100%;
+  white-space : pre;
   width : 100%;
-  padding : 0;
+  overflow : auto;
+}
+
+textarea {
+  float : left;
+  height : 100%;
+  padding : 30px;
+  margin : 0;
   border : 0;
   font-family : monospace;
+  box-sizing : border-box;
+  background-color : lightyellow;
+  width : 39%;
+  border-right : 5px solid lightgoldenrodyellow;
 }
 
-#input textarea:focus {
+textarea:focus {
   outline : 0;
 }
 
 #output {
-  position : absolute;
-  left : 52%;
-  width : 45%;
+  overflow : auto;
+  height : 100%;
+  padding-top : 10px;
+  padding-right : 80px;
+  padding-left : 80px;
+  box-sizing : border-box;
+  border-left : 1px solid rgba(218, 165, 32, 0.12);
 }
 
 #output img {

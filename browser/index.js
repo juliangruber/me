@@ -59,7 +59,7 @@ input.addEventListener('keyup', function (ev) {
 });
 
 ready(function () {
-  document.querySelector('#input').appendChild(input);
+  document.body.insertBefore(input, document.querySelector('body *'));
   document.querySelector('#output').appendChild(output);
 });
 

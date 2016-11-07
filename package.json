@@ -15,15 +15,15 @@
     "me": "bin/me.js"
   },
   "dependencies": {
-    "debounce": "0.0.2",
-    "concat-stream": "~0.1.1",
-    "domready": "~0.2.11",
-    "marked": "~0.2.8",
-    "highlight.js": "~7.3.0",
-    "hyperquest": "~0.1.5",
-    "express": "~3.2.1",
-    "brfs": "0.0.4",
-    "browserify": "~2.13.2"
+    "debounce": "1.0.0",
+    "concat-stream": "~1.5.2",
+    "domready": "~1.0.8",
+    "marked": "~0.3.6",
+    "highlight.js": "~9.8.0",
+    "hyperquest": "~2.1.0",
+    "express": "~4.14.0",
+    "brfs": "1.4.3",
+    "browserify": "~13.1.1"
   },
   "devDependencies": {
     "tap": "*"
